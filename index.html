@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dots and Boxes</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Dots and Boxes</h1>
+	<!-- <div class="left-container">
+		<div id="playButton">
+			<input type="submit" value="Play" id="playButton">
+		</div>
+		<div id="playerScores">
+			<h2 id="player1Score"></h2>
+			<h2 id="player2Score"></h2>
+		</div>
+	</div> -->
+	<br><br><br>
+
+	<div class="right-container">
+		<div class="board">
+			<div class="dot" id="dot0"></div>
+			<div class="dot" id="dot1"></div>
+			<div class="dot" id="dot2"></div>
+			<div class="dot" id="dot3"></div>
+			<div class="dot" id="dot4"></div>
+			<div class="dot" id="dot5"></div>
+			<div class="dot" id="dot6"></div>
+			<div class="dot" id="dot7"></div>
+			<div class="dot" id="dot8"></div>
+
+      <div class="box" id="box0"></div>
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+
+      <div class="line horizontal" id="line0"> </div>
+			<div class="line horizontal" id="line1"> </div>
+			<div class="line horizontal" id="line2"> </div>
+			<div class="line horizontal" id="line3"> </div>
+			<div class="line horizontal" id="line4"> </div>
+			<div class="line horizontal" id="line5"> </div>
+			<div class="line vertical"   id="line6"> </div>
+			<div class="line vertical"   id="line7"> </div>
+			<div class="line vertical"   id="line8"> </div>
+      <div class="line vertical"   id="line9"> </div>
+			<div class="line vertical"   id="line10"></div>
+			<div class="line vertical"   id="line11"></div>
+	
+		</div>
+	</div>
+  <script>
+    function show(id) {
+      document.getElementById(id).style.visibility = "visible";
+    }
+    function hide(id) {
+      document.getElementById(id).style.visibility = "hidden";
+    }
+</script>
+	<script src="script.js"></script>
+</body>
+</html>
